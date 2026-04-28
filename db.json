@@ -1,0 +1,243 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Студент",
+      "email": "student@mail.ru",
+      "phone": "+7 900 000-00-00",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": "2",
+      "name": "Администратор",
+      "email": "admin@mail.ru",
+      "phone": "+7 900 111-22-33",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "name": "пример",
+      "email": "почта",
+      "phone": "111",
+      "password": "123456",
+      "role": "user",
+      "id": "RG5eKasc7Xc"
+    },
+    {
+      "name": "Саша",
+      "email": "тест1",
+      "phone": "123",
+      "password": "1212",
+      "role": "user",
+      "id": "NK6fiVFtvwY"
+    },
+    {
+      "id": "3",
+      "name": "234",
+      "email": "student1@mail.ru",
+      "phone": "2345",
+      "passwordHash": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "3",
+      "name": "Печенье овсяное",
+      "category": "cookies",
+      "price": 251,
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80",
+      "description": "Домашнее печенье.",
+      "weight": "300 г",
+      "rating": 4.4,
+      "inStock": true
+    },
+    {
+      "id": "4",
+      "name": "Шоколадный набор",
+      "category": "sets",
+      "price": 700,
+      "image": "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&w=600&q=80",
+      "description": "Набор конфет ручной работы.",
+      "weight": "12 шт.",
+      "rating": 4.7,
+      "inStock": false
+    },
+    {
+      "id": "5",
+      "name": "Чизкейк клубничный",
+      "category": "cakes",
+      "price": 1350,
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=600&q=80",
+      "description": "Нежный чизкейк с клубникой и сливочным сыром.",
+      "weight": "900 г",
+      "rating": 4.9,
+      "inStock": true
+    },
+    {
+      "id": "6",
+      "name": "Макарон ассорти",
+      "category": "sets",
+      "price": 760,
+      "image": "https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=600&q=80",
+      "description": "Набор макарон с малиной, фисташкой и шоколадом.",
+      "weight": "12 шт.",
+      "rating": 4.8,
+      "inStock": true
+    },
+    {
+      "id": "7",
+      "name": "Капкейки праздничные",
+      "category": "sets",
+      "price": 980,
+      "image": "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=600&q=80",
+      "description": "Шесть капкейков с кремом и ягодным декором.",
+      "weight": "6 шт.",
+      "rating": 4.7,
+      "inStock": true
+    },
+    {
+      "id": "8",
+      "name": "Брауни с орехом",
+      "category": "pastry",
+      "price": 240,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80",
+      "description": "Шоколадный брауни с грецким орехом.",
+      "weight": "100 г",
+      "rating": 4.6,
+      "inStock": true
+    },
+    {
+      "id": "9",
+      "name": "Трюфели шоколадные",
+      "category": "chocolate",
+      "price": 590,
+      "image": "https://images.unsplash.com/photo-1549007953-2f2dc0b24019?auto=format&fit=crop&w=600&q=80",
+      "description": "Конфеты ручной работы из тёмного шоколада.",
+      "weight": "180 г",
+      "rating": 4.8,
+      "inStock": false
+    },
+    {
+      "name": "Пирожное картошка",
+      "category": "pastry",
+      "price": 160,
+      "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80",
+      "description": "Классическое шоколадное пирожное к чаю.",
+      "weight": "90 г",
+      "rating": 4.5,
+      "inStock": true,
+      "id": "10"
+    },
+    {
+      "id": "11",
+      "name": "Печенье с шоколадом",
+      "category": "cookies",
+      "price": 340,
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80",
+      "description": "Рассыпчатое печенье с кусочками шоколада.",
+      "weight": "350 г",
+      "rating": 4.6,
+      "inStock": true
+    },
+    {
+      "id": "12",
+      "name": "Подарочный набор сладостей",
+      "category": "sets",
+      "price": 1450,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80",
+      "description": "Коробка с брауни, печеньем, макарон и конфетами.",
+      "weight": "1 набор",
+      "rating": 4.9,
+      "inStock": true
+    }
+  ],
+  "orders": [
+    {
+      "customerName": "Наталья",
+      "phone": "1234",
+      "address": "111",
+      "comment": "-",
+      "items": [
+        {
+          "productId": "7",
+          "name": "Капкейки праздничные",
+          "price": 980.0,
+          "quantity": 1
+        },
+        {
+          "productId": "8",
+          "name": "Брауни с орехом",
+          "price": 240.0,
+          "quantity": 1
+        }
+      ],
+      "total": 1220.0,
+      "id": "1",
+      "userId": "1",
+      "createdAt": "2026-04-28T02:04:27.407295"
+    },
+    {
+      "customerName": "asd",
+      "phone": "11",
+      "address": "23",
+      "comment": "",
+      "items": [
+        {
+          "productId": "7",
+          "name": "Капкейки праздничные",
+          "price": 980.0,
+          "quantity": 1
+        },
+        {
+          "productId": "8",
+          "name": "Брауни с орехом",
+          "price": 240.0,
+          "quantity": 1
+        },
+        {
+          "productId": "9",
+          "name": "Трюфели шоколадные",
+          "price": 590.0,
+          "quantity": 1
+        },
+        {
+          "productId": "10",
+          "name": "Пирожное картошка",
+          "price": 160.0,
+          "quantity": 1
+        }
+      ],
+      "total": 1970.0,
+      "id": "2",
+      "userId": "2",
+      "createdAt": "2026-04-28T02:05:33.393756"
+    },
+    {
+      "customerName": "testtt",
+      "phone": "123",
+      "address": "1",
+      "comment": "",
+      "items": [
+        {
+          "productId": "3",
+          "name": "Печенье овсяное",
+          "price": 251.0,
+          "quantity": 1
+        },
+        {
+          "productId": "5",
+          "name": "Чизкейк клубничный",
+          "price": 1350.0,
+          "quantity": 1
+        }
+      ],
+      "total": 1601.0,
+      "id": "3",
+      "userId": "2",
+      "createdAt": "2026-04-28T11:11:09.212282"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
